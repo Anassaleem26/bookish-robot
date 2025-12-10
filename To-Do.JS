@@ -34,7 +34,8 @@ const addItem = (item) => {
     })
 
 
-    ul.appendChild(listItem);
+    ul.appendChild(listItem); 
+    console.log("object");
     saveItem()
 }
 
