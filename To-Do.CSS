@@ -181,8 +181,13 @@ ul li i {
     transition: color 0.2s ease, transform 0.2s ease;
 }
 
+ul li .fa-edit {
+    right: 44px;
+}
+
 ul li i:hover {
     color: #ff6b6b;
+    font-size: 1.2rem;
     transform: translateY(-50%) scale(1.1);
 }
 
@@ -197,9 +202,11 @@ ul li i:hover {
     0% {
         transform: translate3d(0, 0, 0);
     }
+
     50% {
         transform: translate3d(40px, -20px, 0) scale(1.05);
     }
+
     100% {
         transform: translate3d(0, 0, 0);
     }
@@ -210,6 +217,7 @@ ul li i:hover {
         opacity: 0;
         transform: translateY(12px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
